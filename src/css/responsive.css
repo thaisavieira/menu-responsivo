@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    padding: 3.125rem 0 4.375rem;
+}
+
+ul li {
+    padding: 1.25rem;
+}
+
+nav ul .btn {
+    margin-top: 1.875rem;
+}

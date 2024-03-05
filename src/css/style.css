@@ -1,0 +1,56 @@
+body {
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+header a h1 {
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+.logo img {
+    width: 2.5rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul .btn {
+    background-color: #5BC241;
+    border-radius: 10px;
+    color: #ffff;
+}
+
+nav li:hover {
+    background-color:
+        #5BC241;
+}
+
+@media (min-width: 490px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .logo {
+        align-items: center;
+        margin: 45px;
+        padding: 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 30px;
+    }
+
+    nav ul .btn {
+        margin-top: 0;
+        margin-right: 45px;
+    }
+}
